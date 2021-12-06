@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="databaseURL">https://instantmessages-c52b8-default-rtdb.asia-southeast1.firebasedatabase.app/</string>
+</resources>

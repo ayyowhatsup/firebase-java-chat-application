@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pass_explain_reg"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/bottom_border_only"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Mật khẩu"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/explain_reg"
+        app:layout_constraintTop_toBottomOf="@+id/mail_explain_reg" />
+
+    <TextView
+        android:id="@+id/mail_explain_reg"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/bottom_border_only"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Email"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/explain_reg"
+        app:layout_constraintTop_toBottomOf="@+id/name_explain_reg" />
+
+    <TextView
+        android:id="@+id/explain_reg"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif"
+        android:text="Đăng kí tài khoản với e-mail"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_explain_reg"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/top_and_bottom_border_only"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Tên đầy đủ"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/explain_reg"
+        app:layout_constraintTop_toBottomOf="@+id/explain_reg" />
+
+    <EditText
+        android:id="@+id/name_edittext_reg"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/top_and_bottom_border_only"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Tên của bạn là gì?"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/name_explain_reg"
+        app:layout_constraintTop_toBottomOf="@+id/explain_reg" />
+
+    <EditText
+        android:id="@+id/email_edittext_reg"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/bottom_border_only"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Địa chỉ email"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/mail_explain_reg"
+        app:layout_constraintTop_toBottomOf="@+id/name_edittext_reg" />
+
+    <TextView
+        android:id="@+id/faq_reg"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="Bằng cách nhấn đăng kí, bạn đồng ý với điều khoản dịch vụ của chúng tôi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pass_explain_reg"
+        app:layout_constraintTop_toBottomOf="@+id/pass_edittext_reg" />
+
+    <EditText
+        android:id="@+id/pass_edittext_reg"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/bottom_border_only"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pass_explain_reg"
+        app:layout_constraintTop_toBottomOf="@+id/email_edittext_reg" />
+
+    <Button
+        android:id="@+id/register_button_reg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/green_round_corner"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="Đăng ký"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

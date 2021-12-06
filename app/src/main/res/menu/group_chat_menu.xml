@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/show_info_group_menu"
+        android:title="Xem thông tin nhóm" />
+    <item
+        android:id="@+id/manage_group_menu"
+        android:title="Quản lí nhóm" />
+    <item
+        android:id="@+id/leave_group_menu"
+        android:title="Rời khỏi nhóm" />
+</menu>

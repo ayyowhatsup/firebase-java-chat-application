@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_member_menu"
+        android:title="Thêm thành viên"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/save_new_group_info"
+        android:title="Lưu"
+        app:showAsAction="always"></item>
+</menu>

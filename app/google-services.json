@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556482949047",
+    "project_id": "instantmessages-c52b8",
+    "storage_bucket": "instantmessages-c52b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556482949047:android:b52be7c055e2d24d6e0232",
+        "android_client_info": {
+          "package_name": "com.example.instantmessages"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556482949047-6j2hn0fjd8opkg01m3p438eeseupoene.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYSLNQvbX26-oP3ABSh8_0VELx8DdyWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556482949047-6j2hn0fjd8opkg01m3p438eeseupoene.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

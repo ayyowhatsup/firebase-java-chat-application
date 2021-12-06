@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Chats" android:id="@+id/firstFragment" android:icon="@drawable/ic_chat" />
+    <item android:title="Contacts" android:id="@+id/secondFragment" android:icon="@drawable/ic_contact" />
+    <item android:title="Discover" android:id="@+id/thirdFragment" android:icon="@drawable/ic_discover"/>
+    <item android:title="Me" android:id="@+id/fourthFragment" android:icon="@drawable/ic_person" />
+</menu>
